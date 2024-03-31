@@ -1,0 +1,47 @@
+body {
+    background-color: #f9f9f9 /* RGBA: Red, Gren, Blue, Alpha (está 10% da cor original) */
+}
+
+.titulo {
+    text-align: center;
+    
+}
+
+.menu{
+    display: flex;
+    justify-content: center;
+}
+
+.menu button {
+    background-color: #3498db; 
+    color: #fff; 
+    padding: 10px 20px; 
+    border: none; 
+    border-radius: 6px;
+    margin: 0 10px;
+    cursor: pointer; 
+    font-size: 16px; 
+    transition: background-color 0.3s ease; /* Transição de fundo com 0.3seg do tipo ease (devagar, acelera, devegar*/
+}
+
+/*Mouse encima*/
+.menu button:hover {
+    background-color: #2980b9; 
+}
+
+/* Estilos para os links dentro dos botões */
+.menu button a {
+    color: inherit; /*Mesma cor do texto */
+    text-decoration: none; /*Remove o sublinhado de link*/
+}
+
+/* Estilos para os links quando o cursor está sobre eles */
+.menu button a:hover {
+    text-decoration: underline; /* Adiciona sublinhado quando o cursor está sobre o link */
+}
+
+.voltar {
+    display: flex;
+    justify-content: center;
+   
+}
