@@ -25,7 +25,6 @@ body {
     transition: background-color 0.3s ease; /* Transição de fundo com 0.3seg do tipo ease (devagar, acelera, devegar*/
 }
 
-/*Mouse encima*/
 .menu button:hover {
     background-color: #2980b9; 
 }
