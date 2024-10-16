@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Merriweather';
+}
+
+:root {
+    --color-light: #fff;
+    --color-dark: #000;
+    --color-fiap: #dc143c;
+    --transition: 0.5s;
+}
+
+ul {
+    list-style: none;
+    margin-left: 30px;
+}
+
+a {
+    text-decoration: none;
+    font-weight: 600;
+    transition: color var(--transition) /* Especificar o color para carregar apenas a transição nele e ficar mais rápido*/
+}
+
+a:hover{
+    color: var(--color-fiap);
+}
+
+.header-page{
+    width: 100%;
+    height: 100px;
+    background-color: azure;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+
+.header-menu ul{
+    display: flex;
+    justify-content: space-between;
+    gap: 3rem;
+}
